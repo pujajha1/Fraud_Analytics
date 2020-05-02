@@ -1,4 +1,4 @@
-# Kafka-SparkStreaming-Cassandra
+# Kafka-SparkStreaming-Cassandra 
 
 Source: Kafka
 Processing: Spark-Streaming
