@@ -1,0 +1,25 @@
+1. Start Zookeeper
+
+Write zkserver on cmd
+
+2. Start Kafka 
+Go to Kafka Directory:
+
+.\bin\windows\kafka-server-start.bat .\config\server.properties
+
+3.Start Spark Streaming Application:KafStreamCSV.scala
+
+4.Run KafkaProd.scala which produces streaming data by reading it from csv file.
+
+It will write the proceesed streaming data in Cassandra table
+=========================================================================================================================
+
+Creating table in Cassandra:
+create KEYSPACE antifraud
+          with replication={'class':'SimpleStrategy','replication_factor':1};
+          
+use antifraud;
+create table Transactions(CustomerID text PRIMARY KEY,CreditCardNo text,
+                              TransactionAmount text, TransactionCurrency text, 
+                              NumberofPasswordTries text, TotalCreditLimit text,CreditCardCurrency text );
+
