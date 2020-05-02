@@ -12,7 +12,7 @@ object KafkaProd extends App {
 
   val TOPIC="csv-test16"
 
-  val file = Source.fromFile("C:/Users/sumit/Desktop/TranasctionLogs.csv")
+  val file = Source.fromFile("C:/Users/sumit/Desktop/Tranasctions.csv")
   val src = file.getLines()
   // print the uid for Guest
   src.foreach(
