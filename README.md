@@ -1,7 +1,9 @@
 # Kafka-SparkStreaming-Cassandra 
 
-Source: Kafka
-Processing: Spark-Streaming
+This Project finds the suspicious transaction details.
+
+Source: Kafka,
+Processing: Spark-Streaming,
 Target: Cassandra
 
 This project uses Kafka for streaming CSV file, Spark-Streaming for Processing and Cassandra for Storing the final data in a table.
