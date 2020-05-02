@@ -1,4 +1,11 @@
 # Kafka-SparkStreaming-Cassandra
+
+Source: Kafka
+Processing: Spark-Streaming
+Target: Cassandra
+
+This project uses Kafka for streaming CSV file, Spark-Streaming for Processing and Cassandra for Storing the final data in a table.
+
 KafkaProd.scala is a consumer API which produces data by reading it from a csv file.
 It reads csv and write it in topic.
 
