@@ -26,6 +26,6 @@ object KafkaProd extends App {
   // val record = new ProducerRecord(TOPIC, "key", "the end "+new java.util.Date)
   // producer.send(record)
 
-  producer.close()
+  producer.close() 
 
 }
