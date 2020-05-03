@@ -7,7 +7,7 @@ import org.apache.spark.streaming.{Seconds, StreamingContext}
 import org.apache.spark.sql.functions.lit
 
 object KafStreamCSV  extends App {
-  """This Program reads data from Kafka Producer Console
+  """This Program reads data from Kafka Producer
     |and create dataframe on top of it and
     |processes it using Spark-Streaming
     |and store the final result in Casssandra
