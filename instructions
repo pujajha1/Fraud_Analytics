@@ -22,4 +22,4 @@ use antifraud;
 create table Transactions(CustomerID text PRIMARY KEY,CreditCardNo text,
                               TransactionAmount text, TransactionCurrency text, 
                               NumberofPasswordTries text, TotalCreditLimit text,CreditCardCurrency text );
-
+ 
